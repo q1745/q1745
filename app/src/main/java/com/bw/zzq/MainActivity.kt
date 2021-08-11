@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        var list: MutableList<String>? = null
+
         Log.d("123", "onCreate: ")
     }
 }
